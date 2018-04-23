@@ -1,0 +1,21 @@
+OBJSENS : amaç
+  min
+ROW:
+  cost: amaç fonksiyonu
+  L LIM1: limit1 lower yani küçüktür(küçük eşittir olduğunu nerden anlıyoruz?)
+  G LIM2: limit2 greater yani büyüktür(büyük eşittir olduğunu nerden anlıyoruz?)
+  E EQN: equal yani eşittir
+COST : amaç fonksiyonu
+  x1+4*x2+9*x3
+LIM[1-2-3-4-....] : limitler
+  Lim1: x1+x2 <= 5
+  lim2: x1+x3 >= 10
+  eqn: -x2+x3 = 7
+RHS: limit değerleri
+  lim1:5
+  lim2:10
+  eqn:7
+BOUNDS : değişken sınırları
+  0<x1<4
+  -1<x2<1
+  x3 sınır yok
