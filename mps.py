@@ -10,7 +10,7 @@ import time
 # with open(file_name) as file:
 #   mps = file.read()
 M = 99#float('INF')
-mps = open("ornek.mps", "r").read()
+mps = open("ornek3.mps", "r").read()
 mpsLines = mps.splitlines(0)
 object = True
 if 'MIN' in mpsLines[2]:
